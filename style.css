@@ -222,6 +222,10 @@ section ul li::before {
 
 }
 
+section {
+    scroll-margin-top: 100px;
+}
+
 /* FOOTER */
 footer {
     background: #3b2a20;
