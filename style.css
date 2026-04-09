@@ -201,6 +201,27 @@ section ul li::before {
         font-size: 18px;
     }
 }
+
+@media (max-width: 768px) {
+
+    header .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .lang-switch {
+        margin-top: 5px;
+    }
+
+}
+
 /* FOOTER */
 footer {
     background: #3b2a20;
