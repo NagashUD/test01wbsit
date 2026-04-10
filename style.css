@@ -278,3 +278,13 @@ a:visited {
 a:active {
   color: #4a321d;
 }
+
+/* États du bouton */
+.btn:hover,
+.btn:visited,
+.btn:active,
+.btn:focus {
+    color: #ffffff !important; /* Empêche le changement de couleur */
+    background: #6f482d;
+    text-decoration: none;
+}
