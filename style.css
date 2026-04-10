@@ -252,3 +252,29 @@ footer {
     padding: 20px 0;
     font-size: 14px;
 }
+
+
+
+/* Style général des liens */
+a {
+  color: #6b4a2b; /* Couleur à adapter selon ta charte graphique */
+  text-decoration: none;
+  font-weight: 500;
+  transition: color 0.3s ease;
+}
+
+/* Effet au survol */
+a:hover {
+  color: #8c6239; /* Couleur légèrement plus claire au survol */
+  text-decoration: underline;
+}
+
+/* Lien déjà visité */
+a:visited {
+  color: #6b4a2b; /* Garde la même couleur pour éviter le violet */
+}
+
+/* Lien actif (au clic) */
+a:active {
+  color: #4a321d;
+}
