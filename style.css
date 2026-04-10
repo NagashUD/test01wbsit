@@ -72,6 +72,24 @@ nav a:hover {
     color: white;
 }
 
+
+.section-separator {
+  background-color: #ffffff;
+  padding: 40px 0;
+  text-align: center;
+  border-top: 1px solid rgba(0, 0, 0, 0.10);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.10);
+}
+
+
+
+.section-separator img {
+  max-height: 120px; /* Ajustable selon la taille souhaitée */
+  width: auto;
+  display: inline-block;
+}
+
+
 /* HERO */
 .hero {
     padding: 20px 0;
