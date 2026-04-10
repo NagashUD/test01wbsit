@@ -84,7 +84,7 @@ nav a:hover {
 
 
 .section-separator img {
-  max-height: 120px; /* Ajustable selon la taille souhaitée */
+  max-height: 100px; /* Ajustable selon la taille souhaitée */
   width: auto;
   display: inline-block;
 }
